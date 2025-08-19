@@ -3,6 +3,9 @@ body{
     width: 100%;
     background-color:yellow;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("ikd.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .hero{
     border: 5px,solid;
@@ -44,8 +47,12 @@ body{
     
     padding:  10px;
     text-align: center;
-    
-    
+    cursor: pointer;
+}
+input:hover{
+    background-color: black;
+    color: darkred;
+
 }
 .main{
     
@@ -84,7 +91,25 @@ button{
     margin-left: 50px;
     background-color: whitesmoke;
     color: darkred;
+    cursor: pointer;
 }
+button:hover{
+    background-color: black;
+    color: blue;
+}.box1{
+    width: 250px;
+    height: 250px;
+    background:blue;
+    font-size:225px;
+    text-align: center;
+    animation: mySlide;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+}
+    @keyframes mySlide{
+from{margin-left:100%;}
+to{margin-left: 0%;}
+    }
 
 @media(max-width:480px){
     .hero{
@@ -93,7 +118,7 @@ button{
     width: 90%;
     padding: 10px;
     padding-right: 10px;
-    margin-right: 5px;
+    margin-right: 20pxpx;
     border-radius: 40px;
     border-color:whitesmoke ;
     margin-top: 20px;
