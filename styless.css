@@ -1,228 +1,127 @@
 body{
     height: 100vh;
     width: 100%;
-    background-color:yellow;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("ikd.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.hero{
-    border: 5px,solid;
-    width: 500px;
-    padding: 30px;
-    padding-right: 50px;
-    margin-left: 40px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    background:linear-gradient(
+        to right,
+        white ,
+         #1e0238 90%
 
-}
-.hero-font{
-    padding-left: 70px;
-    color: darkred;
-}
-.vote{
-    
-    border: 5px,solid;
-    width: 300px;
-    padding: 30px;
-    padding-right: 50px;
-    margin-left: 120px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    );
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
     
 }
-.vote h3{
-    padding-left: 10px;
-    color: darkred;
-}
-.vote p{
-    padding-left: 60px;
-}
-.vote input{
-    
-    padding:  10px;
-    text-align: center;
-    cursor: pointer;
-}
-input:hover{
-    background-color: black;
-    color: darkred;
-
-}
-.main{
-    
-    
-    border: 5px,solid;
-    width: 400px;
-    padding: 30px;
-    padding-right: 50px;
-    margin-left: 70px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    
-    
-}
-.main h2{
-    padding-left: 30px;
-    color: darkred;
-
-}
-.main p{
-    padding-left: 100px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: darkred;
-    padding-left: 30px;
-    padding-top: 30px;
-}
-
-
-
-
-button{
+.section{
+    height: 50%;
     margin-bottom: 20px;
-    margin-left: 50px;
-    background-color: whitesmoke;
-    color: darkred;
-    cursor: pointer;
 }
-button:hover{
-    background-color: black;
-    color: blue;
-}.box1{
-    width: 250px;
-    height: 250px;
-    background:blue;
-    font-size:225px;
-    text-align: center;
-    animation: mySlide;
-    animation-duration: 5s;
-    animation-iteration-count:infinite ;
+.suby{
+    height: 150px;
+    width: 150px;
+    background-color: #1e0238;
 }
-    @keyframes mySlide{
-from{margin-left:100%;}
-to{margin-left: 0%;}
-    }
+.mypix{
+    width: 100%;
+    height: 150px;
+    border-radius: 100%;
+    
+    padding-left: 0px;
+}
+.contact{
+    margin-top: 0px;
+    padding-left: 20px;
+    color: #1e0238;
+}
+.mail{
+    width: 20px;
+    height: 20px;
+     margin-left: 20px;
+     color: #1e0238;
+}
 
-@media(max-width:480px){
-    .hero{
-        
-    border: 5px,solid;
-    width: 90%;
-    padding: 10px;
-    padding-right: 10px;
-    margin-right: 20pxpx;
-    border-radius: 40px;
-    border-color:whitesmoke ;
+
+.mail img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.phone{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
     margin-top: 20px;
-    margin-bottom: 30px; 
-align-items: center;  }
-    
-.vote{
-    
-    border: 5px,solid;
-    width: 200px;
-    padding: 10px;
-    padding-right: 50px;
-    margin-left: 120px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;
+     color: #1e0238;
+
 }
-.vote input{
-    
-    
-    padding:  10px;
-    text-align: center;
-    
+.phone img{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+
 }
-.vote p{
-    align-items: center;
-    padding-left: 30px;
-}
-.vote h3{
-    padding-left: 50px;
+.map{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+     color: #1e0238;
+
 }
 
-.main{
-    
-    
-    border: 5px,solid;
-    width: 350px;
-    padding: 10px;
-    padding-right: 50px;
-    margin-left: 50px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;}
+.map img{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+.fb{
+ 
+    width: 20px;
+    height: 20px;
+    padding: 20px;  
+    margin-bottom: 10px;
+     color: #1e0238;
 
-
-    
 }
 
-@media(min-width:481px) and (max-width:767px){
-    .hero{
-        
-    border: 5px,solid;
-    width: 90%;
-    padding: 10px;
-    padding-right: 10px;
-    margin-right: 5px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px; 
-align-items: center;  }
-    
-.vote{
-    
-    border: 5px,solid;
-    width: 200px;
-    padding: 10px;
-    padding-right: 50px;
-    margin-left: 120px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-.vote input{
-    
-    
-    padding:  10px;
-    text-align: center;
-    
-}
-.vote p{
-    align-items: center;
-    padding-left: 30px;
-}
-.vote h3{
-    padding-left: 50px;
+.fb img{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
 }
 
-.main{
-    
-    
-    border: 5px,solid;
-    width: 350px;
-    padding: 10px;
-    padding-right: 50px;
-    margin-left: 50px;
-    border-radius: 40px;
-    border-color:whitesmoke ;
-    margin-top: 20px;
-    margin-bottom: 30px;}
+.ig{
+ 
+    width: 20px;
+    height: 20px;
+    padding: 20px;   
+        margin-bottom: 10px;
+     color: #1e0238;
+
+}
 
 
-    
+.ig img{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.twit{
+ 
+    width: 20px;
+    height: 20px;
+    padding: 20px;   
+        margin-bottom: 10px;
+
+     color: #1e0238;
+
+}
+
+
+.twit img{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
 }
