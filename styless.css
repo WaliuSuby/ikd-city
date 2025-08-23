@@ -295,9 +295,9 @@ color: black;
 
 .to{
 
-text-decoration: underline;
 font-style: italic;
-border: 2px solid;
+margin-left: 200px;
+
 
 }
 }
